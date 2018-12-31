@@ -1,0 +1,144 @@
+header
+  .top-line
+    height: 60px
+    background-color: $gray
+    line-height: 1.2
+    overflow: hidden
+  .underline
+    display: flex
+    max-width: 1170px
+    margin: auto
+    height: 60px
+    align-items: center
+    justify-content: space-between
+    .local
+      font-size: 13px
+      color: #999999
+      font-weight: 600
+      opacity: 0.9
+    nav
+      a 
+        font-size: 14px
+        color: #333333
+        transition: 0.2s
+        font-family: MyGothamPro
+        font-weight: 500
+        margin-left: 15px
+      a:hover
+        color: $accent
+    .bad-vision
+      display: flex
+      align-items: center
+      background-color: #f2f2f2
+      padding-left: 25px
+      padding-right: 35px
+      font-size: 14px
+      height: 60px
+      box-shadow: -7px 0 10px rgba(0, 0, 0, 0.1)
+      text-decoration: underline
+      font-weight: 500
+      color: #005aab
+      img 
+        height: 25px
+        width: 25px
+        margin-right: 15px
+
+    .search
+      padding-right: 10px
+      padding-left: 10px
+      height: 60px
+      line-height: 60px
+      background-color: #d7d7d7
+      font-size: 14px
+      color: #333333
+      transition: 0.2s
+      font-family: MyGothamPro
+    .search:hover
+      background-color: $accent
+
+  .middleline
+    background-color: #fff
+  .content
+    display: flex
+    max-width: 1170px
+    margin: auto
+    align-items: center
+    justify-content: space-between
+    .logo
+      padding-top: 20px
+      padding-bottom: 20px
+      padding-right: 90px
+
+    .graph
+      font-size: 15px
+    .geo
+      font-size: 15px
+      font-weight: 700
+      font-family: MyGothamPro
+      text-align: center
+      .adress
+        padding-bottom: 10px
+      a
+        text-decoration: underline
+      .tur
+        background: linear-gradient(-90deg, #4d9ac8, #0f6fa1)
+        color: #fff
+        font-weight: normal
+        text-decoration: none
+        border-radius: 5px
+        box-shadow: inset 0px -6px 7px rgba(0, 0, 0, 0.2)
+        display: inline-block
+        position: relative
+        height: 25px
+        width: 95px
+        line-height: 25px
+        p 
+          font-size: 12px
+          padding-left: 10px
+      .tur:before
+        content: ''
+        background-image: url(../assets/img/3d-tur.png)
+        height: 8px
+        width: 17px
+        float: left
+        background-repeat: no-repeat
+        margin-right: 5px
+        position: absolute
+        left: 5px
+        top: 9px
+      .tur:hover
+        box-shadow: none
+    .record
+      padding-left: 70px
+    .numbers
+      p
+        font-family: MyGothamPro
+        font-size: 20px
+
+    
+
+  .bottomline
+    height: 60px
+    background-color: $blue
+    nav 
+      display: flex
+      max-width: 1070px
+      height: 60px
+      margin: auto
+      text-transform: uppercase
+      font-family: MyGothamPro
+      font-size: 16px
+      align-items: center
+      justify-content: space-between
+      a 
+        color: #fff
+      a:hover
+        color: $accent
+
+
+
+
+
+
+  .hamburger
+    display: none
