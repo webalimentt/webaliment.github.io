@@ -273,7 +273,6 @@ a {
   background-image: url(../assets/img/pen-record.png);
   height: 25px;
   width: 25px;
-  float: left;
   background-repeat: no-repeat;
   margin-right: 5px;
   position: absolute;
@@ -357,7 +356,7 @@ header .content {
   max-width: 1170px;
   margin: auto;
   align-items: center;
-  justify-content: space-between; }
+  justify-content: space-around; }
   header .content .logo {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -403,9 +402,9 @@ header .content {
       box-shadow: none; }
   header .content .record {
     padding-left: 70px; }
-  header .content .numbers {
+  header .content .header-numbers {
     display: grid; }
-    header .content .numbers a {
+    header .content .header-numbers a {
       font-family: MyGothamPro;
       font-size: 20px;
       color: #000;
@@ -427,8 +426,6 @@ header .bottomline {
       color: #fff; }
     header .bottomline nav a:hover {
       color: #ffdf2c; }
-header .hamburger {
-  display: none; }
 
 footer {
   background: #005aab;
@@ -474,15 +471,15 @@ footer {
           padding-top: 10px; }
         footer .footer-content .footer-left .links-block a:hover {
           color: #b5e7ff; }
-      footer .footer-content .footer-left .nambers {
+      footer .footer-content .footer-left .footer-numbers {
         margin-top: 15px;
         display: grid; }
-        footer .footer-content .footer-left .nambers a {
+        footer .footer-content .footer-left .footer-numbers a {
           color: #fff;
           font-family: MyGothamPro;
           font-size: 21px;
           font-weight: 500; }
-        footer .footer-content .footer-left .nambers a:hover {
+        footer .footer-content .footer-left .footer-numbers a:hover {
           color: #dedede; }
       footer .footer-content .footer-left .graph {
         margin-top: 15px; }
